@@ -1,0 +1,3 @@
+//AOS instance
+AOS.init()
+

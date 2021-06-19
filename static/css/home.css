@@ -1,0 +1,242 @@
+#navigation{
+    opacity: 0.9;
+}
+
+.navbar{
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav-item a:hover{
+    text-decoration: underline;
+}
+
+.navbar .btn{
+    border-radius: 30px;
+    margin: 0 0.3rem;
+   color:  white;
+   background-color: #ff2e63;
+   border-color:  #ff2e63;
+}
+
+.navbar .btn:hover{
+    border-color:  #ff2e63;
+    background: transparent;    
+}
+.navbar ul{
+     margin-left: 1rem;
+}
+
+.hidden{
+    display: none;
+}
+
+.icon{
+    margin-right: .5rem;
+    border: 1px solid white;
+    border-radius: 100%;
+    height: 2.2rem;
+    padding: 0.2rem;
+}
+
+p{
+    font-family: 'Merriweather', serif;
+}
+
+header {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+  
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.3;
+    z-index: 1;
+  }
+  
+  @media (pointer: coarse) and (hover: none) {
+    header {
+      background: url('Video_PROS.mp4') black no-repeat center center scroll;
+    }
+}
+
+header p{
+    width: 60%;
+    margin: auto;
+}
+
+h1{
+    font-family: 'Aladin', cursive;
+}
+
+/* .section2{
+    background-color: rgb(250, 236, 238);
+} */
+
+.img_sect2{
+    height: 15rem;
+    width: 13rem;
+    border-radius: 100%;
+    background-color: rgb(219, 211, 211);
+}
+
+.div_sect2{
+    margin: 20px auto;
+    align-items: center;
+    border: 1px solid #fa6f92;
+}
+
+.sub_sect2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-lg-4{
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.col-lg-8{
+  padding-top: 3%;
+}
+
+.head_sect{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.section3{
+    padding: 3%;
+    background-color: rgb(248, 221, 232);
+}
+
+
+.sect3-img{
+    height: 500px;
+}
+  
+.sect3-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0px 0px 60px 40px rgb(34, 33, 33) inset;
+}
+
+.section4{
+    text-align: center;
+    padding: 1% 2% 0 0;
+    background: url("../images/stats_bg.jpg") center/cover no-repeat ;
+}
+
+.row{
+    text-align: center;
+    justify-content: center;
+ }
+
+.sect4-img{
+    box-shadow: 10px 10px 5px grey;
+   border-width: 5px;
+   border-style: outset;
+    height: 13rem;
+    width: 23rem;
+}
+
+.sect4-img:hover{
+    height: 15rem;
+   width: 24rem;
+}
+
+.section5{
+    background-color: rgb(46, 2, 28);
+    color: rgb(250, 236, 238);
+    margin: none;
+}
+
+.sectUpper{
+    padding: 2% 0% 0% 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.sectUpper p{
+    padding-top: 2%;
+}
+
+.sectBelow{
+    border-top: 2px solid grey;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+   padding-left: 4%;
+}
+
+.sect5Logo{
+    height: 10rem;
+}
+
+.sect5logoimg{
+    height:2rem;
+    width: 2rem;
+    margin: 1%;
+}
+.spandiv{
+   margin-right: 20px;
+   margin-bottom: 1%;
+}
+
+.email{
+    padding-right: 10%;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+#ft{
+    padding: 1 rem;
+    margin : 0px;
+}
